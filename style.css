@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('MullerRegular.eot');
+  src: local('MullerRegular'), local('MullerRegular'), url('./fonts/MullerRegular.woff') format('woff2'), url('./fonts/MullerRegular.woff') format('woff'), url('MullerRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('MullerBold.eot');
+  src: local('MullerBold'), local('./fonts/MullerBold'), url('./fonts/MullerBold.woff') format('woff2'), url('./fonts/MullerBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muller', sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cards__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.card__img {
+  width: 80%;
+}
+
+.card__title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.card__price {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__btn {
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color:salmon;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form__block {
+  position: absolute;
+  top: 1400px;
+  left: 46%;
+  margin: 0 auto;
+  display: none;
+}
+
+.blur {
+  opacity: .2;
+}
+
+.active {
+  display: block;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 20px;
+  max-width: 300px;
+}
+
+.form__name,
+.form__tel,
+.form__email {
+  margin-bottom: 10px;
+  padding: 10px 52% 10px 10px;
+  border-radius: 20px;
+}
+
+.form__btn {
+  padding: 10px 40px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background-color: salmon;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form__close {
+  position: absolute;
+  right: -37%;
+  cursor: pointer;
+}
+
+.article-first,
+.img-1,
+.article-fifth {
+  margin-bottom: 20px;
+}
+
+.lh {
+  line-height: 1.5em;
+}
+
+.attid {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.attid__strong {
+  font-style: italic;
+  background-color: yellow;
+}
+
+.un-list {
+  line-height: 1.1em;
+}
